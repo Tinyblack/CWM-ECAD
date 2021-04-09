@@ -17,8 +17,8 @@ simgui:
 	@grep -v -i "syntax error" vivado.log|egrep --color=always "PASSED|FAILED|ERROR" | cat $1
 
 clean:
-	@rm vivado*.* run.log |cat
+	@rm vivado*.* run.log *.log|cat
 	@rm -r Ex*.* |cat
-
+	@rm -r .Xil |cat
 
 
