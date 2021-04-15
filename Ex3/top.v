@@ -26,7 +26,7 @@ module counter(
     output reg [7:0]counter_out);
 
     always @(posedge clk or negedge rst) begin
-        if (rst)
+        if (~rst)
             counter_out=8'b0000_0000;
         else
             if(enable)
@@ -36,7 +36,6 @@ module counter(
                     counter_out<=counter_out-1;
             else
             counter_out<=counter_out;
-        
     end
       
 endmodule
