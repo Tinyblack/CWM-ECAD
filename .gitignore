@@ -14,6 +14,7 @@ vivado*.*
 *.xpr/
 *.runs/
 *.ip_user_files/
+*.Xil/
 
 
 #other file formats
