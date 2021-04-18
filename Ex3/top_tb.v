@@ -47,6 +47,7 @@ module top_tb(
         end
     end
 
+    //Enable generation
     initial begin
         #3
         enable=0;
@@ -54,6 +55,7 @@ module top_tb(
         enable=1;
     end
 
+    //Direction generation
     initial begin
         #3
         dir=1;
