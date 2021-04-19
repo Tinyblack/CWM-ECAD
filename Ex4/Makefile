@@ -19,6 +19,6 @@ simgui:
 clean:
 	@rm vivado*.* run.log |cat
 	@rm -r Ex*.* |cat
-
+	@rm -r .Xil |cat
 
 
