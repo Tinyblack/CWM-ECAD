@@ -1,7 +1,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 // Exercise #2 
 // Student Name: ZIMO ZHAO
-// Date: 2021 APR 09
+// Date: 09 APR 2021
 //
 //  Description: In this exercise, you need to design a multiplexer, where the  
 //  output acts according to the following truth table:
