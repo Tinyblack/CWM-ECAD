@@ -1,7 +1,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 // Exercise #4 
-// Student Name:
-// Date: 
+// Student Name: ZIMO ZHAO
+// Date: 19 APR 2021
 //
 //  Description: In this exercise, you need to design an electronic dice, following
 //  the diagram provided in the exercises documentation. The dice rolls as long as
