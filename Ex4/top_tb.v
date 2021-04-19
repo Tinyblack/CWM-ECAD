@@ -1,7 +1,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 // Test bench for Exercise #4 - Electronic Dice
-// Student Name:
-// Date: 
+// Student Name: ZIMO ZHAO
+// Date: 19 APR 2021
 //
 // Description: A testbench module to test Ex4 - Electronic Dice
 // You need to write the whole file

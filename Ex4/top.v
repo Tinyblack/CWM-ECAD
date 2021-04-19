@@ -40,7 +40,7 @@ module dice (
 
     always @(button or state_reg or state_next) begin
         state_next=state_reg;
-        case (state_reg)
+        case (state_reg)    
             3'b000:
             begin
                 throw=3'b000;
