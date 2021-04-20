@@ -1,7 +1,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 // Exercise #6 
-// Student Name:
-// Date: 
+// Student Name: ZIMO ZHAO
+// Date: 19 APR 2021
 //
 //
 //  Description: In this exercise, you need to design a multiplexer between a dice and traffic 

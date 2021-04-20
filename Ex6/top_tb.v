@@ -1,7 +1,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 // Test bench for Exercise #6 - Dice or Traffic Lights?
-// Student Name:
-// Date: 
+// Student Name: ZIMO ZHAO
+// Date: 19 APR 2021
 //
 // Description: A testbench module to test Ex6 - Dice or Traffic Lights?
 // You need to write the whole file
@@ -107,8 +107,8 @@ module top_tb (
     end
 
     //Finish test, check for success
-    initial begin
-    #450 //This contorl the time of simulation
+    initial begin //Ths maximum simulation time is set in .tcl file.
+    #450 
         if (err==0) begin
             $display("*** TEST A PASSED! :) ***");
         end
