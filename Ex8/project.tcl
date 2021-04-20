@@ -20,6 +20,9 @@ create_fileset -constrset -quiet constraints
 #set_property is_enabled false [get_files ${project_constraints}]
 
 #Todo: Add your IP here
+add_files "blk_mem_gen_1.mif"
+read_verilog "blk_mem_gen_1.v"
+read_verilog "blk_mem_gen_v8_4.v"
 
 read_verilog "top.v"
 read_verilog "top_tb.v"
