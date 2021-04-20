@@ -17,8 +17,12 @@
 module top(
     input clk_p,
     input clk_n,
-     //Todo: add all other ports besides clk_n and clk_p 
-   );
+
+    input rst_n,
+    input button,
+    output reg led_0,
+    output reg led_1,
+    output reg led_2);
     
 
    /* clock infrastructure, do not modify */
@@ -37,6 +41,19 @@ module top(
 	.O  (clk)
       );
 
-//Add logic here
+    always @(posedge clk or button or rst_n) begin
+        if (~rst_n || button)
+        begin
+            led_0=1'b0;
+            led_1=1'b0;
+            led_2=1'b0;
+        end
+        else
+        begin
+            led_0=clk;
+            led_1=~clk;
+            led_2=clk;
+        end
+    end
 
 endmodule

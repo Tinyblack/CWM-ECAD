@@ -17,5 +17,11 @@ set_property BITSTREAM.CONFIG.SPI_FALL_EDGE YES        [current_design]
 #############################################################################################################
 
 
-
+set_property -dict {PACKAGE_PIN AY38 IOSTANDARD DIFF_SSTL12} [get_ports {clk_n}]
+set_property -dict {PACKAGE_PIN AY37 IOSTANDARD DIFF_SSTL12} [get_ports {clk_p}]
+set_property -dict {PACKAGE_PIN BD21 IOSTANDARD LVCMOS18} [get_ports {rst_n}]
+set_property -dict {PACKAGE_PIN BC21 IOSTANDARD LVCMOS18} [get_ports {led_0}]
+set_property -dict {PACKAGE_PIN BB21 IOSTANDARD LVCMOS18} [get_ports {led_1}]
+set_property -dict {PACKAGE_PIN BA20 IOSTANDARD LVCMOS18} [get_ports {led_2}]
+set_property -dict {PACKAGE_PIN AL20 IOSTANDARD LVCMOS12} [get_ports {button}]
 
